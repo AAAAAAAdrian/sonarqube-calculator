@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 
 //@java.lang.SuppressWarnings("java:S106")
-@java.lang.SuppressWarnings("java:S125")  // Suppress commented-out code warning
+@java.lang.SuppressWarnings({"java:S125"})  // Suppress commented-out code warning
 public class Calculator {
 
     public int add(int a, int b) {
@@ -29,14 +29,12 @@ public class Calculator {
         return amount * rate / 100;
     }
 
-    // BLOCKER: Hardcoded credentials + insecure logic
     public void insecureLogin(String username, String password) {
         if (username.equals("admin") && password.equals("admin")) {
             System.out.println("Logged in");
         }
     }
 
-    // BLOCKER: Divide by zero at runtime
     public void doEverything() {
         int x = 5;
         int y = 0;
