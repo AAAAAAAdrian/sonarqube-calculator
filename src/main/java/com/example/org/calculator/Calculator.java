@@ -71,8 +71,5 @@ public class Calculator {
 
         String nullString = null;
         System.out.println(nullString.length());
-//        if (nullString != null) {
-//            System.out.println(nullString.length());
-//        }
     }
 }
