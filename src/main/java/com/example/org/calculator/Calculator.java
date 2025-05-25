@@ -8,12 +8,7 @@ import java.io.FileWriter;
 @java.lang.SuppressWarnings("java:S125")  // Suppress commented-out code warning
 public class Calculator {
 
-    public int add(int a, int b) {//        try (FileWriter writer = new FileWriter("data.txt")) {
-//            writer.write(data);
-//        } catch (IOException e) {
-//            // Handle the exception appropriately
-//            e.printStackTrace();
-//        }
+    public int add(int a, int b) {
         return a + b;
     }
 
