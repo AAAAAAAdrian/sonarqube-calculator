@@ -20,7 +20,6 @@ public class Calculator {
         return a * b;
     }
 
-    // BLOCKER: No check for divide by zero
     public int divide(int a, int b) {
         return a / b;
     }
