@@ -2,6 +2,7 @@ package com.example.org.calculator;
 
 import java.util.Scanner;
 
+//@java.lang.SuppressWarnings("java:S106")
 public class Calculator {
 
     public int add(int a, int b) {
