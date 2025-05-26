@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileWriter;
 
 //@java.lang.SuppressWarnings("java:S106")
-@java.lang.SuppressWarnings({"java:S125"})  // Suppress commented-out code warning
 public class Calculator {
 
     public int add(int a, int b) {
@@ -37,7 +36,9 @@ public class Calculator {
     public void doEverything() {
         int x = 5;
         int y = 0;
-        int result = divide(x, y); // Division by zero
+        int result = 2;
+        result =+ x;
+        result += y;
         System.out.println("Result: " + result);
     }
 
@@ -49,11 +50,6 @@ public class Calculator {
         } catch (Exception ignored) {
 
         }
-//        try (FileWriter writer = new FileWriter("data.txt")) {
-//            writer.write(data);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
 
     public static void main(String[] args) {
