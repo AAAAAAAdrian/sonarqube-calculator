@@ -36,10 +36,8 @@ public class Calculator {
     public void doEverything() {
         int x = 5;
         int y = 0;
-        int result = 2;
-        result =+ x;
-        result += y;
-        System.out.println("Result: " + result);
+        int result = 125;
+        System.out.println("Result: " + x+y);
     }
 
     public void writeFile(String data) {
@@ -61,8 +59,5 @@ public class Calculator {
         int b = scanner.nextInt();
         System.out.println("Sum: " + calc.add(a, b));
         scanner.close();
-
-        String nullString = null;
-        System.out.println(nullString.length());
     }
 }
