@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileWriter;
 
-//@java.lang.SuppressWarnings("java:S106")
+//@SuppressWarnings("java:S106")
 public class Calculator {
 
     public int add(int a, int b) {
